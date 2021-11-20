@@ -6,8 +6,11 @@ function App() {
 	return (
 		<div className="App">
 			<Stopwatch />
+      <Board/>
 		</div>
 	);
 }
+
+
 
 export default App;
