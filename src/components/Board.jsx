@@ -18,7 +18,7 @@ const Board = (props) => {
 			const card = {
 				value: i,
 				opened: false,
-				matched: true,
+				matched: false,
 			};
 			board.push(card);
 			board.push(card);
