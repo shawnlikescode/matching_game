@@ -1,16 +1,12 @@
 import { useState } from "react";
-import Stopwatch from "./components/Stopwatch";
+import Board from "./components/Board";
 
 function App() {
-
 	return (
-		<div className="App">
-			<Stopwatch />
-      <Board/>
+		<div className="App h-screen">
+			<Board />
 		</div>
 	);
 }
-
-
 
 export default App;
